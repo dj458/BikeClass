@@ -1,4 +1,4 @@
-
+package com.Bike.core;
 public class Motorcycle extends Bicycle{
 
     public int gasTank;

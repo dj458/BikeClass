@@ -1,3 +1,4 @@
+package com.Bike.core;
 public class Test {
     public static void main(String args[]) {
         Bike myBike = new Bike("round",2,"square");

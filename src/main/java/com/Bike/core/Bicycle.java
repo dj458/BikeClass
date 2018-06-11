@@ -1,8 +1,10 @@
+package com.Bike.core;
+
 public class Bicycle extends Bike {
     public int pedalNum;
 
     public Bicycle (int startPedalNum, String startWheelShape, int startWheelNum, String startSeatShape){
-        super ( startWheelShape,  startWheelNum,  startSeatShape);
+        super (startWheelShape,  startWheelNum,  startSeatShape);
         pedalNum=startPedalNum;
     }
 

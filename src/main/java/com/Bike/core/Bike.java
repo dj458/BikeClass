@@ -1,3 +1,4 @@
+package com.Bike.core;
 public class Bike {
     public String wheelShape;
     public int wheelNum;
