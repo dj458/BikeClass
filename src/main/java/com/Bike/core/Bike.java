@@ -35,10 +35,10 @@ public class Bike {
         return new Bike("square",2,"round");
     }
 
-    public static Bicycle generateBicyle(){
+    protected static Bicycle generateBicyle(){
         return new Bicycle(2,"1",2,"adsfadsf");
     }
-    public static void doNothing(){
+    protected static void doNothing(){
         System.out.print("i am doning nothing");
     }
 }

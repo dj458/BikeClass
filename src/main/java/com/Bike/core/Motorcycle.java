@@ -22,6 +22,7 @@ public class Motorcycle extends Bicycle{
 
 
     public void print(){
+        generateBicyle();
         System.out.println("Motorcycle_gasTank: "+ gasTank);
         System.out.println("Motorcycle_motor: "+ motor);
         System.out.println("Motorcycle_pedalNum: "+ pedalNum);
