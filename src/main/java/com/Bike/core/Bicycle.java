@@ -9,7 +9,6 @@ public class Bicycle extends Bike {
     }
 
     public void setPedalNum (int newValue){
-
         pedalNum = newValue;
     }
 
@@ -19,5 +18,4 @@ public class Bicycle extends Bike {
         System.out.println("Bicycle_wheelNum: "+ wheelNum);
         System.out.println("Bicycle_seatShape: "+ seatShape);
     }
-
 }

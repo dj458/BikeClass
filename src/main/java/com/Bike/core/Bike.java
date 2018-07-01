@@ -34,11 +34,14 @@ public class Bike {
     public static Bike generateInstance(){
         return new Bike("square",2,"round");
     }
-
     protected static Bicycle generateBicyle(){
         return new Bicycle(2,"1",2,"adsfadsf");
     }
     protected static void doNothing(){
-        System.out.print("i am doning nothing");
+        System.out.println("i am doning nothing");
     }
 }
+
+
+
+

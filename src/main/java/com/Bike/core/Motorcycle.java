@@ -6,11 +6,9 @@ public class Motorcycle extends Bicycle{
 
     public Motorcycle (int startGasTank, int startMotor, int startPedalNum, String startWheelShape, int startWheelNum, String startSeatShape){
         super ( startPedalNum,  startWheelShape,  startWheelNum,  startSeatShape);
-
         gasTank = startGasTank;
         motor = startMotor;
     }
-
 
     public void setgasTank(int newValue){
         gasTank = newValue;
@@ -19,7 +17,6 @@ public class Motorcycle extends Bicycle{
     public void setmotor (int newValue){
         motor = newValue;
     }
-
 
     public void print(){
         generateBicyle();
