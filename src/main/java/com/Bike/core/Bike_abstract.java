@@ -12,12 +12,14 @@ public abstract class Bike_abstract {
     //final, no other implementation of this method is allowed, ever
     private void privateTest(){System.out.println("Private class test");}
     private  int a=10;
+
 }
 
 class MyAbstractBike extends Bike_abstract{
     void setWheelNum(){System.out.println("implement the abstract class method setWheelNum");}
     public void applyBrake(){System.out.println("OverRidden the applyBrake method");}
     //int b =a; can't use a because a is private and in different class
+
 
 }
 

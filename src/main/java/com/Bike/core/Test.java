@@ -1,6 +1,41 @@
 package com.Bike.core;
-public class Test {
+public  class Test {
+    int gpa;
+    String name;
+    static String college ="Virginia Tech";//this field get memory only once because of static keyword
+    static String faculity="Michale";
+    int count=0;//will get memory when instance is created
+    static int count2=0;//will get memory only once and retain its value
+
+//static method can access static data member and can change the value of it.
+    static void change(){
+        college="New College";
+    }
+
+
+    Test(int r,String n){
+        gpa = r;
+        name = n;
+        count++;//instance keyword counter,will not increment according to the number of execution
+                //because it will get memory when instance is created
+        count2++;//static keyword counter,will increment according to the number of execution
+                 //it will get memory only once and retain its value
+    }
+    void display (){System.out.println(gpa+" "+name+" "+college+faculity+count+count2);}
+
+    //static method no need to create object, if use non static method in main, will cause extra memory
     public static void main(String args[]) {
+
+        //static keyword test
+        Test.change();
+        Test tes1= new Test(8,"xu");
+        tes1.display();
+        Test test2=new Test(100,"Feng");
+        tes1.display();;
+
+
+
+
         Bike myBike = new Bike("round",2,"square");
         myBike.print();
 
