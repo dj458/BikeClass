@@ -1,4 +1,8 @@
 package com.Bike.core;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public  class Test {
     int gpa;
     String name;
@@ -25,6 +29,46 @@ public  class Test {
 
     //static method no need to create object, if use non static method in main, will cause extra memory
     public static void main(String args[]) {
+
+        //exception in Java
+//        int b[]={1,2,3};
+//        System.out.println(b[5]);
+        // After run the code, the IDE output: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+        //	at com.Bike.core.Test.main(Test.java:31)
+
+
+        //try and catch block
+        try {
+            int a[] = new int[3];
+            System.out.println(a[9]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Exception throw:............  "+e);
+        }
+
+        System.out.println("Out of the block");
+
+        try {
+            int a = 0/0;
+
+        }catch (ArithmeticException e){
+            System.out.println("ArithmeticException throws........."+e);
+        }
+        System.out.println("ArithmeticException throws");
+
+
+        try{
+            FileInputStream file1=null;
+            throw new FileNotFoundException("FileNotFoundException!");
+        }catch (FileNotFoundException f) {
+        System.out.println(" FileNotFoundException:....."+f);
+        }
+
+
+        try{
+            int k =0/0;
+        }catch (Exception g){
+            System.out.println("Expection is:....."+g);
+        }
 
         //static keyword test
         Test.change();
