@@ -109,12 +109,12 @@ public  class Test {
         //Abstract class
         //Bike_abstract bikeabstract = new Bike_abstract();  this is error because Bike_abstract is abstract, can't be instantiated
 
-        MyAbstractBike myasbtractbike = new MyAbstractBike();
+        NewBike myasbtractbike = new NewBike();
         myasbtractbike.setWheelNum();
         myasbtractbike.applyBrake();
         myasbtractbike.makeTurns();
 
-        MyAbstractBikeTwo a = new MyAbstractBikeTwo();
+        OldBike a = new OldBike();
         a.setWheelNum();
         a.applyBrake();
         a.applyengine();

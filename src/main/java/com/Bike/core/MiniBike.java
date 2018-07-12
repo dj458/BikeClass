@@ -4,7 +4,7 @@ package com.Bike.core;
 // interface just have signature of methods
 // interface has no data member nor constructor
 //can implement multi interfaces
-public interface Bike_interface {
+public interface MiniBike {
         int setTwoWheels();
         void runTheBike();
         void   applyBrake();
@@ -13,7 +13,7 @@ public interface Bike_interface {
 
 // if i don't apply all the method from the interface, the IDE will rise error and ask me to use abstract class,
 //after I apply all the methods from interface, the error will disappear
- class MyNewBike implements Bike_interface{
+ class MyNewBike implements MiniBike{
     @Override
     public int setTwoWheels() {
         System.out.println("setTwoWheels from interface");
@@ -32,7 +32,7 @@ public interface Bike_interface {
     private void applyOil(){System.out.println(" private Interface appli oil ");}
 }
 
- class MySecondBike implements Bike_interface{
+ class MySecondBike implements MiniBike{
     @Override
     public int setTwoWheels() {
         System.out.println("setTwoWheels from second class implements the interface");

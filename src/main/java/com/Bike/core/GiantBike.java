@@ -4,7 +4,7 @@ package com.Bike.core;
 //An abstract class is used by creating an inheriting subclass that can be instantiated (similar to interface)
 //
 
-public abstract class Bike_abstract {
+public abstract class GiantBike {
 
     abstract void setWheelNum();// if not implement the method, need a abstract keyword
     public void applyBrake(){System.out.println("Abstract class method applyBrake");}
@@ -15,15 +15,14 @@ public abstract class Bike_abstract {
 
 }
 
-class MyAbstractBike extends Bike_abstract{
+class NewBike extends GiantBike{
     void setWheelNum(){System.out.println("implement the abstract class method setWheelNum");}
     public void applyBrake(){System.out.println("OverRidden the applyBrake method");}
     //int b =a; can't use a because a is private and in different class
 
-
 }
 
-class MyAbstractBikeTwo extends Bike_abstract{
+class OldBike extends GiantBike{
     void setWheelNum(){System.out.println("Second abstract class implement the abstract class method setWheelNum");}
     public void applyBrake(){System.out.println("Second abstract class OverRidden the applyBrake method");}
     public void applyengine(){System.out.println("Apply engine");}
