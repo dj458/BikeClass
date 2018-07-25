@@ -1,9 +1,6 @@
 package com.Bike.core;
 
-
-
 public class MaximumBinaryTree {
-
     public static void main (String[] arg){
         int [] intArray= {3,2,1,6,0,5};
         MaximumBinaryTree maximumBinaryTree=new MaximumBinaryTree();
