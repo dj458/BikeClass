@@ -12,7 +12,7 @@ public class HammingDistance {
         int count = 0;
         while (n != 0) {
             count++;
-            n = n & (n - 1);//remove the rightmost bit 1, until n it is 0; 
+            n = n & (n - 1);//remove the rightmost bit 1, until n it is 0;
         }
         System.out.println(count);
 
