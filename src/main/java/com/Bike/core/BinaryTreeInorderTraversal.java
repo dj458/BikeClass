@@ -1,5 +1,5 @@
 package com.Bike.core;
-
+//binary tree Inorder, Postorder and Preorder  traversal
 class Node{
     int key;
     Node left, right;
