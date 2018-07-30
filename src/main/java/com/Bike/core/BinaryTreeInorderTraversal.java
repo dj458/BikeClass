@@ -35,6 +35,13 @@ public class BinaryTreeInorderTraversal {
         printPreorder(node.right);
     }
 
+    void printPostorder(Node node){
+        if(node==null)
+            return;
+        printPostorder(node.left);
+        printPostorder(node.right);
+        System.out.println(node.key+" ");
+    }
     void printInorder()
     {
         printInorder(root);
@@ -45,6 +52,9 @@ public class BinaryTreeInorderTraversal {
         printPreorder(root);
     }
 
+    void printPostorder(){
+        printPostorder(root);
+    }
     public static void main(String[] args){
         BinaryTreeInorderTraversal tree = new BinaryTreeInorderTraversal();
         tree.root=new Node(1);
@@ -55,5 +65,7 @@ public class BinaryTreeInorderTraversal {
         tree.printInorder();
         System.out.println("Preorder Traversal of Binary tree is ");
         tree.printPreorder();
+        System.out.println("Postorder Traversal of Binary tree is ");
+        tree.printPostorder();
     }
 }
