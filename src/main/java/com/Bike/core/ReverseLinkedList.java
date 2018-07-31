@@ -1,10 +1,5 @@
 package com.Bike.core;
 
-
-import jdk.vm.ci.meta.Value;
-
-import java.util.Arrays;
-
 class LinkedList{
     Node head;
     static class Node{
@@ -21,6 +16,8 @@ public class ReverseLinkedList {
         LinkedList.Node third =new LinkedList.Node(3);
         llist.head.next=second;
               second.next=third;
-     System.out.println();
+     System.out.println(llist.head.data);
+     System.out.println(second.data);
+     System.out.println(third.data);
     }
 }
