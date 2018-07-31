@@ -8,6 +8,7 @@ class Node{
         left=right=null;
     }
 }
+
 public class BinaryTreeInorderTraversal {
     Node root;
     BinaryTreeInorderTraversal(int key){
