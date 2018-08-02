@@ -6,17 +6,9 @@ public class HashSetExample {
     public static void main(String[] args){
         HashSet hashSet=new HashSet();
         hashSet.add("abc");
-
-
-
         hashSet.clear();
-
-
-
         hashSet.add("abc");
-
         hashSet.clone();
-
         hashSet.forEach((s) -> {
             System.out.println(s);
         });
@@ -29,7 +21,8 @@ public class HashSetExample {
         hashSet.add("abc");
         hashSet.iterator();
         hashSet.add("bcd");
-        hashSet.remove("abc");
+        hashSet.add("bcd");
+        hashSet.remove("bcd");
         hashSet.forEach((s) -> {
             System.out.println(s);
         });
