@@ -1,23 +1,50 @@
 package com.Bike.core;
 
-class LinkedList{
-    Node head;
-    static class Node{
+class LinkedList {
+    static Node head;
+    static class Node {
         int data;
         Node next;
-        Node(int d){data=d;next=null;}
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
     }
-}
-public class ReverseLinkedList {
-    public static void main(String[] args){
-        LinkedList llist=new LinkedList();
-        llist.head= new LinkedList.Node(1);
-        LinkedList.Node second =new LinkedList.Node(2);
-        LinkedList.Node third =new LinkedList.Node(3);
-        llist.head.next=second;
-              second.next=third;
-     System.out.println(llist.head.data);
-     System.out.println(second.data);
-     System.out.println(third.data);
+
+
+    void printList(Node node) {
+        while (node != null) {
+            System.out.println(node.data + " ");
+            node = node.next;
+        }
+    }
+
+    Node reverse(Node node ){
+        Node prev=null;
+        Node current=node;
+        Node next=null;
+        while (current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+
+        }
+        node=prev;
+        return node;
+    }
+
+
+    public  static  void main(String[] args) {
+        LinkedList list = new LinkedList();
+        list.head = new LinkedList.Node(1);
+        list.head.next = new LinkedList.Node(2);
+        list.head.next.next = new LinkedList.Node(3);
+        System.out.println("Given Linkedlist: ");
+        list.printList(head);
+        head=list.reverse(head);
+        System.out.println("Reversed Linkedlist: ");
+        list.printList(head);
     }
 }
