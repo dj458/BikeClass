@@ -1,7 +1,7 @@
 package com.Bike.core;
 public class Bike {
-    public String wheelShape;
-    public int wheelNum;
+    public static String wheelShape;
+    public static int wheelNum;
     public String seatShape;
 
     public Bike(String startWheelShape, int startWheelNum, String startSeatShape) {

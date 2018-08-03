@@ -121,6 +121,8 @@ public  class Test {
         a.applyGas();
         a.privateTest();
 
+       System.out.println(Bike.wheelNum);
+       System.out.println(Bike.wheelShape);
 
 
     }
