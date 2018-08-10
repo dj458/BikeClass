@@ -27,10 +27,10 @@ public class WordBreakDynamic {
             }
         }
         if(createdWord.isEmpty()==true){
-            System.out.println("Word break True");
+            System.out.println("Word break Succeed");
         }
         else
-            System.out.println("Word break False");
+            System.out.println("Word break Failed");
     }
 
 
