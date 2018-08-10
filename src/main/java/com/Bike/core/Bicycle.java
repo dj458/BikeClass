@@ -17,5 +17,7 @@ public class Bicycle extends Bike {
         System.out.println("Bicycle_wheelShape: "+ wheelShape);
         System.out.println("Bicycle_wheelNum: "+ wheelNum);
         System.out.println("Bicycle_seatShape: "+ seatShape);
+        System.out.println(protectedVariable);
+        //System.out.println(privateVariable);
     }
 }

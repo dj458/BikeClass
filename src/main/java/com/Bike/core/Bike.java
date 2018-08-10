@@ -3,7 +3,8 @@ public class Bike {
     public static String wheelShape;
     public static int wheelNum;
     public String seatShape;
-
+    protected String protectedVariable;
+    private String privateVariable;
     public Bike(String startWheelShape, int startWheelNum, String startSeatShape) {
 
         wheelShape = startWheelShape;
