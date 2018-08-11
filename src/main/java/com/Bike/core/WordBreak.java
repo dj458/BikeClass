@@ -29,5 +29,6 @@ public class WordBreak {
 
         WordBreak wordBreak=new WordBreak();
         wordBreak.wordBreakSolution(s,wordDict);
+
     }
 }
