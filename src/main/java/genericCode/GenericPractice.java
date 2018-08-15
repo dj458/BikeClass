@@ -1,4 +1,4 @@
-package GenericCode;
+package genericCode;
 
 
 

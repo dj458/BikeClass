@@ -1,6 +1,5 @@
-package HashRelatedCodes;
+package hashRelatedCodes;
 
-import javax.security.auth.callback.LanguageCallback;
 import java.util.HashMap;
 
 public class HashTableExample {

@@ -1,4 +1,4 @@
-package PalindromeCode;
+package palindromeCode;
 
 import java.util.ArrayList;
 import java.util.List;

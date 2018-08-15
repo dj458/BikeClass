@@ -1,4 +1,4 @@
-package TreeExample;
+package treeExample;
 
 public class MaximumBinaryTree {
     public static void main (String[] arg){

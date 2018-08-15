@@ -1,4 +1,4 @@
-package TreeExample;
+package treeExample;
 
 public class TreeNode {
     public int value;

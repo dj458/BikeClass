@@ -1,8 +1,4 @@
-package ArrayandString;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package arrayandString;
 
 public class CustomSortString
 {

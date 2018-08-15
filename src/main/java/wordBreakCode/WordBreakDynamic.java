@@ -1,4 +1,4 @@
-package WordBreakCode;
+package wordBreakCode;
 
 import java.util.*;
 

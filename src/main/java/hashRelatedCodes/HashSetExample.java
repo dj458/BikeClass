@@ -1,4 +1,4 @@
-package HashRelatedCodes;
+package hashRelatedCodes;
 
 import java.util.*;
 

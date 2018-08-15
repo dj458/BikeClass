@@ -1,4 +1,4 @@
-package TreeExample;
+package treeExample;
 //binary tree Inorder, Postorder and Preorder  traversal
 class Node{
     int key;

@@ -1,4 +1,4 @@
-package ArrayandString;
+package arrayandString;
 
 public class LabelDuplicatedArray {
     public static void main (String[] arg){

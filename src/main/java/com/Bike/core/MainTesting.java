@@ -1,6 +1,6 @@
 package com.Bike.core;
 
-import PalindromeCode.PalindromePartitioningBackTracking;
+import palindromeCode.PalindromePartitioningBackTracking;
 
 public class MainTesting {
     public static void main(String[] args){
