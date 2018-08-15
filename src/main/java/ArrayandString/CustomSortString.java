@@ -1,4 +1,4 @@
-package com.Bike.core;
+package ArrayandString;
 
 import java.util.ArrayList;
 import java.util.Arrays;

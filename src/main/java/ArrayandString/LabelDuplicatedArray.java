@@ -1,4 +1,4 @@
-package com.Bike.core;
+package ArrayandString;
 
 public class LabelDuplicatedArray {
     public static void main (String[] arg){

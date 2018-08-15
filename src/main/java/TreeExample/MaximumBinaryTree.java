@@ -1,4 +1,4 @@
-package com.Bike.core;
+package TreeExample;
 
 public class MaximumBinaryTree {
     public static void main (String[] arg){
@@ -8,7 +8,7 @@ public class MaximumBinaryTree {
     }
 
     int maxOfArray=0;
-    public TreeNode findLeftRightNode(int[] intArray,int leftIndex, int rightIndex){
+    public TreeNode findLeftRightNode(int[] intArray, int leftIndex, int rightIndex){
         if(leftIndex==rightIndex)
             return null;
         int  index=max(intArray,leftIndex,rightIndex);

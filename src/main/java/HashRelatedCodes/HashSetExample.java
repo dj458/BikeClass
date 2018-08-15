@@ -1,4 +1,4 @@
-package com.Bike.core;
+package HashRelatedCodes;
 
 import java.util.*;
 

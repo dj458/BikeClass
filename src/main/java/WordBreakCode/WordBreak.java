@@ -1,4 +1,4 @@
-package com.Bike.core;
+package WordBreakCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

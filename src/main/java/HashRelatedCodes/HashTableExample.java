@@ -1,4 +1,4 @@
-package com.Bike.core;
+package HashRelatedCodes;
 
 import javax.security.auth.callback.LanguageCallback;
 import java.util.HashMap;

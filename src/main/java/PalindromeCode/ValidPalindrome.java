@@ -1,4 +1,4 @@
-package com.Bike.core;
+package PalindromeCode;
 
 import java.util.Arrays;
 

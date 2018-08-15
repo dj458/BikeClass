@@ -1,4 +1,4 @@
-package com.Bike.core;
+package TreeExample;
 //binary tree Inorder, Postorder and Preorder  traversal
 class Node{
     int key;

@@ -1,4 +1,4 @@
-package com.Bike.core;
+package TreeExample;
 
 public class TreeNode {
     public int value;
