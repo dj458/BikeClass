@@ -1,4 +1,4 @@
-package treeExample;
+package LinkedlistCode;
 
 class LinkedList {
     static Node head;
