@@ -27,11 +27,15 @@ public class HashMapExample {
 
         String x="good";
         String h="good";
-        String x1="goodd";
+        String x1="goodd1";
         String h1="goodd";
+        Integer x2=1;
+        Integer h2=1;
+        String x3=new String("goodd");
+        String h3=new String("goodd");
 
         System.out.println("Two string are equal? "+x.equals(h));//compare string hashcode value
-        System.out.println("Two string are equal 222? "+(x1==h1));//compare memnory location
+        System.out.println("Two string are equal 222? "+(x3==h3));//compare memnory location
 
 
     }
