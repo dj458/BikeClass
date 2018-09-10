@@ -1,7 +1,7 @@
 package arrayandString;
 import java.util.*;
 
-public class Solution {
+public class RemoveAdjacentDuplicates {
     public static String removeDuplicates(String s) {
         char[] stringChar=s.toCharArray();
         Stack<Character> charStack= new Stack<>();
@@ -27,9 +27,9 @@ public class Solution {
 
     public static void main(String[] args)
     {
-        Solution solution=new Solution();
-        solution.removeDuplicates("ACCAABBC");
-        solution.removeDuplicates("ABCBBCBA");
+        RemoveAdjacentDuplicates removeAdjacentDuplicates =new RemoveAdjacentDuplicates();
+        removeAdjacentDuplicates.removeDuplicates("ACCAABBC");
+        removeAdjacentDuplicates.removeDuplicates("ABCBBCBA");
 
 
     }
