@@ -6,7 +6,7 @@ public class CombinationSumTWo {
     {
         CombinationSumTWo combinationSum =new CombinationSumTWo();
         int [] givenArray={2,4,6,10};
-        int result = combinationSum.rec(16, givenArray,3);
+        int result = combinationSum.rec(18, givenArray,3);
         System.out.println(result);
     }
 
