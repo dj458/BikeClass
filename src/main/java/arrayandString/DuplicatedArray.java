@@ -22,7 +22,6 @@ public class DuplicatedArray {
             if((input[k]==input[k-1])){
                 System.out.println(input[k]);
             }
-
         }
         }
     }
