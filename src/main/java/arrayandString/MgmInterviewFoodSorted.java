@@ -48,7 +48,6 @@ class Main
         ar.add(new Food("Tomato", 121));
 
         Collections.sort(ar, new Sortbysize());
-        Collections.sort(ar, new Sortbysize());
 
         System.out.println("\nSorted Food");
         for (int i=0; i<ar.size(); i++)
