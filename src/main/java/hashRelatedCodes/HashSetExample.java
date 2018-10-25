@@ -31,5 +31,6 @@ public class HashSetExample {
         System.out.println(s);
         hashSet.add("abc");
         hashSet.spliterator();
+
     }
 }

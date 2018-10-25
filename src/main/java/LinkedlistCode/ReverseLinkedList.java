@@ -5,13 +5,11 @@ class LinkedList {
     static class Node {
         int data;
         Node next;
-
         Node(int d) {
             data = d;
             next = null;
         }
     }
-
 
     void printList(Node node) {
         while (node != null) {
@@ -29,18 +27,17 @@ class LinkedList {
             current.next=prev;
             prev=current;
             current=next;
-
         }
         node=prev;
         return node;
     }
-
 
     public  static  void main(String[] args) {
         LinkedList list = new LinkedList();
         list.head = new LinkedList.Node(1);
         list.head.next = new LinkedList.Node(2);
         list.head.next.next = new LinkedList.Node(3);
+        list.head.next.next.next=new LinkedList.Node(4);
         System.out.println("Given Linkedlist: ");
         list.printList(head);
         head=list.reverse(head);

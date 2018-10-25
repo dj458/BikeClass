@@ -14,6 +14,6 @@ public class FibonacciSpaceOpt {
     }
 
     public static void main(String[] args){
-        System.out.println(fib(1));
+        System.out.println(fib(4));
     }
 }

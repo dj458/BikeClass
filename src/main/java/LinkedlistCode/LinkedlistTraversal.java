@@ -1,8 +1,4 @@
 package LinkedlistCode;
-
-
-
-
 public  class LinkedlistTraversal {
     Node head;
     static class Node{
@@ -21,16 +17,12 @@ public  class LinkedlistTraversal {
     }
 
     public static void main(String[] args){
-
         LinkedlistTraversal linkedlistTraversal=new LinkedlistTraversal();
         linkedlistTraversal.head= new LinkedlistTraversal.Node(1);
         LinkedlistTraversal.Node second = new LinkedlistTraversal.Node(2);
         LinkedlistTraversal.Node third= new LinkedlistTraversal.Node(3);
-
         linkedlistTraversal.head.next=second;
         second.next=third;
         linkedlistTraversal.printList();
-
     }
-
 }

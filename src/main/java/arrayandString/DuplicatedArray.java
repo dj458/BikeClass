@@ -15,14 +15,14 @@ public class DuplicatedArray {
                 input[i]=input[j];
                 input[j]=temp;
               }
-            }
+             }
             }
         System.out.println(Arrays.toString(input));
-        for(int k=1;k<input.length-2;k++){
+        for(int k=1;k<input.length;k++){
             if((input[k]==input[k-1])){
                 System.out.println(input[k]);
             }
-        }
+          }
         }
     }
 

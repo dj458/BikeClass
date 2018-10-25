@@ -16,7 +16,6 @@ public class WordBreak {
         }
         else
             System.out.println("false");
-
     }
 
     public static void main(String[] args){
@@ -26,9 +25,7 @@ public class WordBreak {
         List<String> wordDict = new ArrayList<>(Arrays.asList("cats", "dog", "sand", "and", "cat"));
         List<String> wordDict1 = new ArrayList<>(Arrays.asList("leet", "code"));
         List<String> wordDict2 = new ArrayList<>(Arrays.asList("apple", "pen"));
-
         WordBreak wordBreak=new WordBreak();
-        wordBreak.wordBreakSolution(s,wordDict);
-
+        wordBreak.wordBreakSolution(s,wordDict1);
     }
 }

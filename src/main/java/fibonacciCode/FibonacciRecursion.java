@@ -12,8 +12,7 @@ public class FibonacciRecursion {
 
     public static void main(String[] args){
         FibonacciRecursion fibonacciRecursion =new FibonacciRecursion();
-        int k= fibonacciRecursion.fib(9);
+        int k= fibonacciRecursion.fib(90);
         System.out.println(k);
     }
-
 }

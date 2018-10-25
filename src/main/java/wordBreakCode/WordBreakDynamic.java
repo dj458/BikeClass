@@ -43,7 +43,6 @@ public class WordBreakDynamic {
         List<String> wordDict2 = new ArrayList<>(Arrays.asList("apple", "pen"));
         String s3="andog";
         List<String> wordDict3 = new ArrayList<>(Arrays.asList("and", "an","dog"));
-
         WordBreakDynamic wordBreakDynamic=new WordBreakDynamic();
         wordBreakDynamic.wordBreakSolution1(s3,wordDict3);
     }

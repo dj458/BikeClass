@@ -22,5 +22,4 @@ public class GenericPractice {
         Test<Boolean,String> bobj=new Test<Boolean,String>(true,"qweqwe");
         System.out.println(bobj.obj.toString()+bobj.obj2.toString());
     }
-
 }

@@ -10,7 +10,6 @@ public class CustomSortString
         char[] charArrayS = S.toCharArray();
         char[] charArrayT = T.toCharArray();
         int[] labelArray = new int[9];
-        //List resultList = new ArrayList();
         char[] result = new char[charArrayS.length];
         char[] resultExtra = new char[charArrayT.length];
 
@@ -36,7 +35,6 @@ public class CustomSortString
                     if(a2>max)
                     {
                         resultExtra[j]=charArrayT[j];
-
                     }
                 }
             }

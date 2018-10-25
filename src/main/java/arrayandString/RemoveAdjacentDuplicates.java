@@ -2,7 +2,7 @@ package arrayandString;
 import java.util.*;
 
 public class RemoveAdjacentDuplicates {
-    public static String removeDuplicates(String s) {
+    public  String removeDuplicates(String s) {
         char[] stringChar=s.toCharArray();
         Stack<Character> charStack= new Stack<>();
         char k=stringChar[0];
@@ -30,7 +30,5 @@ public class RemoveAdjacentDuplicates {
         RemoveAdjacentDuplicates removeAdjacentDuplicates =new RemoveAdjacentDuplicates();
         removeAdjacentDuplicates.removeDuplicates("ACCAABBC");
         removeAdjacentDuplicates.removeDuplicates("ABCBBCBA");
-
-
     }
 }

@@ -2,18 +2,22 @@ package fibonacciCode;
 
 public class FibonacciDynamic {
 
-    static int fib(int n){
-        int f[]=new int[n+2];
-        f[0]=0;
-        f[1]=1;
-        for (int i=2;i<=n;i++){
-            f[i]=f[i-1]+f[i-2];
-        }
-        return f[n];
-    }
+    static int fib(int n) {
 
-    public static void main(String[] args){
-        int n=9;
-        System.out.println(fib(n));
+        int fib[] = new int[n + 2];
+        fib[0] = 0;
+        fib[1] = 1;
+
+        for (int i = 2; i <= n; i++) {
+
+            fib[i]= fib[i - 1] + fib[i - 2];
+        }
+        return fib[n];
     }
+        public static void main(String args[])
+        {
+            int  n = 90;
+            System.out.println(fib(n));
+        }
+
 }
