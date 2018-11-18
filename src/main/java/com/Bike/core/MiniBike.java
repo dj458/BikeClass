@@ -1,6 +1,6 @@
 package com.Bike.core;
 
-//interface practice:
+//interface HackerRank:
 // interface just have signature of methods
 // interface has no data member nor constructor
 //can implement multi interfaces
