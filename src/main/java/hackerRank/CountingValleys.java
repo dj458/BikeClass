@@ -1,4 +1,4 @@
-package HackerRank;
+package hackerRank;
 
 public class CountingValleys {
 

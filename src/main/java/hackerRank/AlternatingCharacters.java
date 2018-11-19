@@ -1,4 +1,4 @@
-package HackerRank;
+package hackerRank;
 //remove adjacent character
 
 import java.io.IOException;

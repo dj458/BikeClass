@@ -1,9 +1,4 @@
-package HackerRank;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
+package hackerRank;
 
 public class RepeatedString {
     // Complete the repeatedString function below.
