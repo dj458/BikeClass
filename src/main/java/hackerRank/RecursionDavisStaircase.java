@@ -22,8 +22,6 @@ public class RecursionDavisStaircase {
             return stepPerms(n-1)+stepPerms(n-2)+stepPerms(n-3);
         }
 
-
-
         public static void main(String[] args)  {
             System.out.println(RecursionDavisStaircase.stepPerms(10));
         }
