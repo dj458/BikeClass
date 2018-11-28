@@ -34,7 +34,7 @@ public  class Test {
 //        int b[]={1,2,3};
 //        System.out.println(b[5]);
         // After run the code, the IDE output: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-        //	at com.Bike.core.Test.main(Test.java:31)
+        //	at com.Bike.core.TestForInterview.main(TestForInterview.java:31)
 
 
         //try and catch block

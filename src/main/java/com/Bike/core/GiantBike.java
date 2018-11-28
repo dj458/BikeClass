@@ -27,6 +27,6 @@ class OldBike extends GiantBike{
     public void applyBrake(){System.out.println("Second abstract class OverRidden the applyBrake method");}
     public void applyengine(){System.out.println("Apply engine");}
     protected void applyGas(){System.out.println("Apply gas");}
-    private void applyOil(){System.out.println("Apply oil");}//can't be accessed in Test.java class
-    public void privateTest(){System.out.println("Private Test");}
+    private void applyOil(){System.out.println("Apply oil");}//can't be accessed in TestForInterview.java class
+    public void privateTest(){System.out.println("Private TestForInterview");}
 }

@@ -55,7 +55,7 @@ class MyCode {
         }
 
         /*
-         * Sample Solution 1: Test for Custom Comparator
+         * Sample Solution 1: TestForInterview for Custom Comparator
          */
 
         public static class CustomerComparator implements Comparator<Customer> {
