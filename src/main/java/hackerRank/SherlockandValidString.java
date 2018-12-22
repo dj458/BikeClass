@@ -32,7 +32,7 @@ public class SherlockandValidString {
 
         return result;
     }
-    
+
     public static void main(String[] args)  {
         String s="abcdefghhgfedecba";
         isValid(s);

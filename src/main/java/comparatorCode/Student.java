@@ -13,4 +13,5 @@ public  class Student implements Comparable<Student> {
     public int compareTo(Student s) {
         return this.rollno-s.rollno;
     }
+
 }
