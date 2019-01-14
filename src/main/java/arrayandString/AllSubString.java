@@ -19,12 +19,14 @@ public class AllSubString
 
         public static void recsub(String str, int start_pos, int size){
             if (size > str.length()) {
+
                 System.out.println();
                 recsub(str, ++start_pos, start_pos+1);
             }
             else {
                 System.out.print(str.substring(start_pos, size)+" ");
-                if (start_pos+1 < str.length()) {
+                if (start_pos+1 < str.length())
+                {
                     recsub(str, start_pos, size+1);
                 }
             }
